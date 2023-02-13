@@ -99,6 +99,6 @@ let usercard = document.getElementById("usercard");
 let p = document.createElement("p"); //создание нового элемента
 
 p.innerText = `${tg.initDataUnsafe.user.first_name}
-${tg.initDataUnsafe.user.last_name}`;
+${tg.initDataUnsafe.user.last_name} ${tg.initDataUnsafe.user.id}`;
 
 usercard.appendChild(p);
